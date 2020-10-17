@@ -1,0 +1,146 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet';
+
+
+/* Default */
+body, html {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(75, 4, 241, 0.637), rgba(28, 27, 31, 0.5), rgba(78, 78, 78, 0.5)), url("../images/background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.icon{
+    color: #FFD803;
+}
+
+
+
+.navbar-default {
+    border-color: #E7E7E7;
+    padding: 20px;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #d32020;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #d32020;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #d32020;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #d32020;
+}
+/* End Default */
+
+
+/* About site */
+.about{
+    margin-top: 110px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    justify-self: center;
+    align-items: center;
+}
+
+.about h1{
+    font-weight: 600;
+    list-style: normal;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.about p{
+    list-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.about .btn-coba{
+    font-size: 15px;
+    background: linear-gradient(100.34deg, #952BE8 6.9%, #F50EFA 138.1%);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-align: center;
+
+}
+
+.about .btn-coba:hover{
+    font-family: sans-serif;
+    font-size: 20px;
+    background: linear-gradient(100.34deg, #952BE8 6.9%, #F50EFA 138.1%);
+    text-decoration: none;
+    color: #000000;
+}
+/* End About site */
+
+
+/* Icon Media */
+.icon-media{
+    margin-top: 32vh;
+    margin-left: 78rem;
+}
+
+.icon-media .icon-media-sosial{
+    margin-left: 20px;
+}
+
+.icon-color{
+    color: #ffffff;
+}
+
+/* End Icon Media */
+
+
+/*Media Query Untuk Non Aktifkan Versi Mobile*/
+@media only screen and (max-width: 600px) {
+	body{
+		display: none;
+	}
+}
+@media only screen and (max-width: 900px) {
+	body{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	body{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1400px) {
+	body{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1194px) {
+	body{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1429px) {
+	body{
+		display: none;
+	}
+}
+
